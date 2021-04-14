@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div >
+    <div class="input-values">
+        <div class="inner-input" style="display: inline-block">
+            <h2 class="input-description">Select a range of values to generate</h2>
+            <input type="number" id="val_from" value="0" min="-100" max="1000">
+            <input type="number" id="val_to" value="10" min="-100" max="1000">
+            <button id="genButton" onclick="gen()" class="myButton">Generate</button>
+        </div>
+        <div id="genNum" class="generatedNumbers" style="display: inline-block">
+        </div>
+    </div>
+    <br>
+    <button id="runPushSwap" class="myButton">runPushSwap</button>
+</div>
+<br>
+
+<div id="test" class="container" style="width: 300px; height: 300px"></div>
+</body>
+</html>
